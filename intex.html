@@ -1,2 +1,107 @@
 <html>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código Libre Android</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .intro {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .repo-link {
+            display: block;
+            margin-top: 20px;
+            font-size: 1.1em;
+            color: #2980b9;
+            text-decoration: none;
+        }
+        .repo-link:hover {
+            text-decoration: underline;
+        }
+        code {
+            display: block;
+            background-color: #2d2d2d;
+            color: #f8f8f2;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Código Libre Android</h1>
+    <p>Proyecto de código abierto para aplicaciones Android</p>
+</header>
+
+<section>
+    <h2>Introducción</h2>
+    <p class="intro">Este es un ejemplo de cómo estructurar un proyecto de código libre para Android. Aquí puedes ver ejemplos de código, enlaces a repositorios y más detalles sobre cómo contribuir a este proyecto.</p>
+
+    <h2>Enlace al Repositorio</h2>
+    <p>Puedes acceder al código fuente completo del proyecto a través del siguiente enlace:</p>
+    <a href="https://github.com/tu-usuario/android-libre" class="repo-link" target="_blank">Repositorio en GitHub</a>
+
+    <h2>Fragmento de Código</h2>
+    <p>Este es un ejemplo de un fragmento de código Android para mostrar un simple mensaje en un `Toast`:</p>
+    <code>
+        // Código para mostrar un mensaje en un Toast
+        import android.os.Bundle;
+        import android.widget.Toast;
+        import androidx.appcompat.app.AppCompatActivity;
+
+        public class MainActivity extends AppCompatActivity {
+            @Override
+            protected void onCreate(Bundle savedInstanceState) {
+                super.onCreate(savedInstanceState);
+                setContentView(R.layout.activity_main);
+
+                Toast.makeText(this, "¡Hola, Mundo!", Toast.LENGTH_SHORT).show();
+            }
+        }
+    </code>
+</section>
+
+<footer>
+    <p>&copy; 2025 Código Libre Android - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
+
 </html>
